@@ -1,0 +1,211 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	background-color: #e6e6e6;
+	padding: 0;
+	margin: 0;
+}
+
+.judul {
+	width: auto;
+	height: auto;
+	background-color: tomato;
+	margin: 7px 7px 10px 7px;
+}
+
+.container-1 {
+	width: auto;
+	height: 555px;
+	background-color: white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px;
+	box-shadow: -1px 10px 15px 5px #888888;
+}
+
+.logo {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 30px;
+	color: white;
+	padding: 15px 0 15px 15px;
+}
+
+/* navbar */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav li { float: left; }
+
+nav li a {
+	display: block;
+	color: #ffffff;
+	text-align: left;
+	padding: 14px 15px;
+	text-decoration: none;
+}
+
+nav li a:hover { opacity: 0.7; }
+
+/* container 2 */
+.container-2 {
+	width: auto;
+	height: 348px;
+	background-color: white;
+	margin: 7px 7px 15px 7px;
+	padding: 5px 0 5px 0;
+	border: 1px solid;
+}
+
+.container-2 h1 {
+	font-size: 25px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+/* table (index.html) */
+.container-2 p { margin: 15px 15px 15px 15px; }
+
+.container-2 table { margin: 10px 10px 7px 10px; }
+
+.container-2 thead { background-color: #f5f5f5 }
+
+.container-2 tbody tr:nth-child(even) { background-color: #fff8dc; }
+
+.container-2 table #col-1 { width: 60px; }
+
+.container-2 table #col-2 { width: 160px; }
+
+.container-2 table #col-3 { width: 180px; }
+
+.container-2 table #col-4 { width: 770px; }
+
+.container-2 table #head-table { line-height: 50px; }
+
+.container-2 table #content-1, #content-2, #content-3 { line-height: 40px; }
+
+/* gambar pada about-me.html */
+img {
+	width: 198px;
+	height: 144px;
+	margin: 0 10px 0 15px;
+	float: left;
+}
+
+.profile {
+	text-align: justify;
+	width: auto;
+	height: auto;
+	margin: 5px 10px 7px 10px;
+}
+
+.profile p { margin-bottom: 15px; }
+
+.profile img { 
+	margin-left: -13px;
+	margin-right: 20px;
+}
+
+.profile h5 { margin-left: 18.5%; }
+
+.profile li { margin-left: 18.5%; }
+
+/* bagian footer */
+.footer {
+	clear: both;
+	width: auto;
+	height: auto;
+	background-color: tomato;
+	margin: 7px 7px 15px 7px;
+	padding: 8px 20px 3px 15px;
+	color: white;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 8px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.footer ul li {
+	float: right;
+	margin-right: 5px;
+	margin-left: 8px;
+	font-size: 8px;
+}
+
+.footer li a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer li a:hover { opacity: 0.7;  }
+
+.footer li a #img {
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+/* khusus ask-me.html */
+.container-askme {
+	width: auto;
+	height: 348px;
+	background-color: white;
+	margin: 7px 10px 16.5px 10px;
+	padding: 5px 0 5px 0;
+}
+
+.container-askme h1 {
+	font-size: 25px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.container-askme .form-user {
+	width: auto;
+	height: auto;
+	margin: 10px 30% 10px 30%;
+	padding: 5px 5px 5px 5px;
+	box-shadow: -2px 1px 5px 5px #888888;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-askme .form-user #name {
+	width: 99%;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.container-askme .form-user #email {
+	width: 99%;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.container-askme .form-user #question {
+	width: 99%;
+	height: 75px;
+	margin-top: 5px;
+	border: 1px solid grey;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-askme .form-user #button {
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 89.8%;
+	background-color: tomato;
+	color: white;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
